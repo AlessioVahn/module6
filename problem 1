@@ -1,0 +1,10 @@
+from datetime import timedelta
+from datetime import datetime
+
+timedelt = timedelta(seconds=60)
+timedelt2 = timedelta(days=730)
+print(timedelt)
+timenow = datetime.now()
+print(timenow)
+new_time = timenow + timedelt2 - timedelt
+print(new_time) 
